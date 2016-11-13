@@ -20,7 +20,7 @@ link () {
 }
 
 # config
-link "/etc/mosquitto" "/config/etc/mosquitto"
+link "/etc/mosquitto" "/config/etc/"
 
 # /etc/syslog-ng/syslog-ng.conf
 link "/etc/syslog-ng/syslog-ng.conf" "/config/etc/syslog-ng.conf"
