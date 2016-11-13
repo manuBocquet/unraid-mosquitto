@@ -1,0 +1,15 @@
+8c8
+<       rotate 2
+---
+>       rotate 7
+12a13
+>               scalar.awk /config/log/access.log > /var/log/squid/squid_report.txt
+17a19,26
+> }
+> 
+> /var/log/squid/squid_report.txt {
+>       daily
+>       rotate 7
+>       missingok
+>         nocreate
+>       nocompress
